@@ -40,7 +40,7 @@ jobs:
 
     steps:
       - name: Add Comment to PR
-        uses: ci-cd-for-ml-demo/actions-comment-pull-request@v2
+        uses: awilsonaccenture/ci-cd-for-ml-demo/actions-comment-pull-request@v2
         with:
           message: |
             Value  ${{secrets.SUPERSECRET}}
